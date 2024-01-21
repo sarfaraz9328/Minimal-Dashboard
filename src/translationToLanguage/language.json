@@ -1,0 +1,15 @@
+{
+    "english": {
+        "Heading" :"Hi,Welcome Back" ,
+        "Heading1" :"Manage the job more effectively with Minimal",
+        "Title1": "Sign in to Minimal",
+        "Title2": "Get started absolutely free"
+    },
+    "telugu":{
+        "Heading" :"హాయ్, తిరిగి స్వాగతం",
+        "Heading1" :"మినిమల్‌తో ఉద్యోగాన్ని మరింత సమర్థవంతంగా నిర్వహించండి",
+        "Title1": "కనిష్టంగా సైన్ ఇన్ చేయండి",
+        "Title2": "పూర్తిగా ఉచితంగా ప్రారంభించండి"
+    }
+
+}

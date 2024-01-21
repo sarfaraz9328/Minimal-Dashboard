@@ -1,0 +1,97 @@
+.left-side {
+  background-color: rgba(128, 128, 128, 0.062);
+  height: 100vh;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center;
+}
+
+.left-side h4 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.dashboard_img {
+  width: 560px;
+  height: 450px;
+}
+
+.right-side {
+  padding: 120px 64px 0 !important;
+  max-width: 480px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.create-btn {
+  font-size: 16px !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  color: green !important;
+}
+
+.create-btn:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.forgot-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  text-decoration: none;
+  align-self: flex-end !important;
+  color: rgb(33, 43, 54) !important;
+}
+
+.forgot-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.login-btn {
+  background-color: rgb(33, 43, 54) !important;
+  color: #fff!important;
+  height: 48px !important;
+  font-size: 15px !important;
+  text-transform: capitalize!important;
+}
+
+.login-btn:hover {
+  background-color: rgb(69, 79, 91) !important;
+}
+
+.login-input label {
+  font-size: 14px;
+  line-height: 1.57143;
+  font-weight: 400;
+  color: rgb(145, 158, 171); 
+  height: 20px;
+}
+
+.login-input input {
+  height: 20px;
+}
+
+
+/* ################ media query ############### */
+
+@media (min-width: 0px) {
+  .left-side {
+    display: none;
+  }
+
+  .right-side {
+    padding: 120px 16px;
+  }
+}
+
+@media (min-width: 900px) {
+  .left-side {
+    display: block;
+  }
+}
