@@ -12,6 +12,7 @@ const Register = () => {
   const Navigate = useNavigate();
   const title = () => {
     const path = "login";
+    console.log(document.title,"getting");
     Navigate(path, { state: { type: "login" } });
     document.title = "Dashboard | Login";
   };
